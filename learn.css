@@ -1,0 +1,88 @@
+.bs {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.bg {
+    background-color: rgb(255, 255, 53);
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #0b0909;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sss {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.db {
+    border: 2px solid bisque;
+}
+
+.bg1 {
+    background-color: #63E6BE;
+}
+
+.bd {
+    background-image: url("https://c1.wallpaperflare.com/preview/183/27/698/laptop-apple-macbook-computer.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: #0b0909;
+        font-size: 8px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: #0b0909;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: #0b0909;
+        font-size: 17px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: #0b0909;
+        font-size: 23px;
+        text-align: center;
+    }
+}
